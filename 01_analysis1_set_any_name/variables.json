@@ -1,0 +1,9 @@
+{
+    "_comment": "キー名の先頭に_がついているものは説明用",
+
+    "example_val": 100,
+    "_example_val": {
+        "_description": "変数例",
+        "_unit": "m"
+    }
+}

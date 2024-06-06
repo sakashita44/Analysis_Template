@@ -1,0 +1,13 @@
+{
+    "_comment1": "ファイル名の{NN}は被験者番号, {MM}は試行番号を示す",
+    "default": {
+        "subject_filename": {
+            "name": "s{NN}",
+            "extention": ""
+        },
+        "trial_filename": {
+            "name": "s{NN}t{MM}",
+            "extention": ""
+        }
+    }
+}

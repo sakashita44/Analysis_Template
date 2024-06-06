@@ -2,8 +2,6 @@
 *.csv
 *.xlsx
 *.xls
-*.json
-*.txt
 *.log
 
 # Byte-compiled / optimized / DLL files
