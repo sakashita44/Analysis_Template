@@ -8,10 +8,10 @@
 ```python
 import sys
 import os
-# 以下，/(解析のルート)${analysis_name}/${analysis_name}.pyから利用する場合
-# 例: /01_analysis1_set_any_name/analysis1.py
+# 以下，/analysis/${analysis_name}/${analysis_name}.pyから利用する場合
+# 例: /analysis/01_analysis1_set_any_name/analysis1.py
 # 解析のルートディレクトリのパスをpathに追加
-common_path = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+common_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 sys.path.append(common_path)
 
 # ルートディレクトリ下のcommon/srcからcommon_module_1をimport

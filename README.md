@@ -28,25 +28,26 @@
 │  requirements.txt
 │  run_all.ps1
 │
-├─01_analysis1_set_any_name
-│  │  analysis1.py
-│  │  README.md
-│  │  run_analysis1.ps1
-│  │  variables.json
-│  │
-│  ├─input
-│  │  │  .gitignore
-│  │  │
-│  │  └─s1
-│  │          s1t1.csv
-│  │          s1t2.csv
-│  │          s2t1.csv
-│  │          s2t2.csv
-│  │
-│  └─output
-│          .gitignore
-│          s1.csv
-│          s2.csv
+├─analysis
+│   └─01_analysis1_set_any_name
+│      │  analysis1.py
+│      │  README.md
+│      │  run_analysis1.ps1
+│      │  variables.json
+│      │
+│      ├─input
+│      │  │  .gitignore
+│      │  │
+│      │  └─s1
+│      │          s1t1.csv
+│      │          s1t2.csv
+│      │          s2t1.csv
+│      │          s2t2.csv
+│      │
+│      └─output
+│             .gitignore
+│              s1.csv
+│              s2.csv
 │
 ├─common
 │  │  README.md

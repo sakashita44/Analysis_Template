@@ -15,11 +15,11 @@ Set-Location -Path $PSScriptRoot
 $scriptName = $MyInvocation.MyCommand.Name.Replace(".ps1", "")
 
 # Log取得開始
-Start-Transcript -Path "../log/$arg1/$scriptName.log" | Out-Null
+Start-Transcript -Path "../../log/$arg1/$scriptName.log"
 
 ## ここに処理を記述 ########################################
-# example: py analysis1.py
-
+# python等の出力を表示させるには，Out-Defaultを使用する必要がある
+py analysis1.py | Out-Default;
 
 ###########################################################
 

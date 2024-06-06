@@ -17,7 +17,7 @@
 
 * ~~pythonスクリプト中のログはloggingモジュールを用いて出力する~~(未対応)
     * とりあえずprintを用いて出力
-    * いずれは対応させたい
+    * loggingを使う必要があるかは?
 * PowerShellでは`Start-Transcript`, `Stop-Transcript`を用いて出力する
     * 個別の解析実行スクリプトでは，ログファイルを`YYYYMMDD_HHmmss/$analysis_name.log`として出力する
         * このとき実行時間を引数として受け取る(引数がない場合は自身で取得する)
