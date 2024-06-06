@@ -9,6 +9,7 @@ Start-Transcript -Path "log/$dateTime/all.log" | Out-Null
 # example: 01_analysis1_set_any_name
 # Write-Output "INFO: 01_analysis1_set_any_name start"
 # ./01_analysis1_set_any_name/run_analysis1.ps1 $dateTime
+# Set-Location -Path $PSScriptRoot # ルートディレクトリに戻る
 # Write-Output "INFO: 01_analysis1_set_any_name done"
 
 
