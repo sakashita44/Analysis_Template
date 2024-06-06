@@ -22,11 +22,11 @@
 ## ファイル構成例
 
 ```plaintext
-.
+/
 │  .gitignore
 │  README.md
-│  run_all.ps1
 │  requirements.txt
+│  run_all.ps1
 │
 ├─01_analysis1_set_any_name
 │  │  analysis1.py
@@ -35,24 +35,42 @@
 │  │  variables.json
 │  │
 │  ├─input
-│  │       .gitignore
+│  │  │  .gitignore
+│  │  │
+│  │  └─s1
+│  │          s1t1.csv
+│  │          s1t2.csv
+│  │          s2t1.csv
+│  │          s2t2.csv
 │  │
 │  └─output
 │          .gitignore
+│          s1.csv
+│          s2.csv
 │
 ├─common
 │  │  README.md
 │  │
 │  ├─data
-│  │        .gitignore
-│  │        specific_data.json
+│  │      .gitignore
+│  │      README.md
+│  │      specific_data.json
 │  │
 │  └─src
-│           common_module_1.py
+│          common_module_1.py
+│          README.md
 │
-└─config
-            filename.json
-            README.md
+├─config
+│      filename.json
+│      README.md
+│
+└─log
+    │  README.md
+    │
+    └─20240606_162637
+            all.log
+            run_analysis1.log
+
 ```
 
 ### ファイル・ディレクトリ概要
