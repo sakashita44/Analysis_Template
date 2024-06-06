@@ -1,8 +1,8 @@
 import sys
 import os
 
-common_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
-sys.path.append(common_path)
+root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+sys.path.append(root_path)
 
 from common.src import common_module_1
 

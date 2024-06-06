@@ -11,8 +11,8 @@ import os
 # 以下，/analysis/${analysis_name}/${analysis_name}.pyから利用する場合
 # 例: /analysis/01_analysis1_set_any_name/analysis1.py
 # 解析のルートディレクトリのパスをpathに追加
-common_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
-sys.path.append(common_path)
+root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+sys.path.append(root_path)
 
 # ルートディレクトリ下のcommon/srcからcommon_module_1をimport
 from common.src import common_module_1
